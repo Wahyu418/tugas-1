@@ -33,13 +33,10 @@ def main():
     uts = float(input("Masukkan nilai UTS: "))
     uas = float(input("Masukkan nilai UAS: "))
 
-    # Hitung nilai akhir
     nilai_akhir = hitung_nilai_akhir(tugas, uts, uas)
     
-    # Tentukan nilai huruf
     nilai_huruf = tentukan_nilai_huruf(nilai_akhir)
     
-    # Tampilkan hasil
     print(f"Nilai Akhir: {nilai_akhir:.2f}")
     print(f"Nilai Huruf: {nilai_huruf}")
 
